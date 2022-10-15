@@ -6,7 +6,6 @@ def main(page:Page):
     page.horizontal_alignment='center'
     page.bgcolor=colors.LIGHT_GREEN_900
 
-
     c1=Container(
         content=Column(
         controls=[
@@ -82,4 +81,4 @@ def main(page:Page):
 
     page.add(c1)
 
-flet.app(target=main)
+flet.app(target=main,view=flet.FLET_APP)
