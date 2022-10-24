@@ -35,7 +35,6 @@ def main(page:Page):
         Text("Body Medium", style="bodyMedium"),
         Text("Body Small", style="bodySmall"),
 
-
         ]
     )
 
