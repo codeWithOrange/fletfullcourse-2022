@@ -79,20 +79,6 @@ def main(page:Page):
         capitalization='sentences',
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
     )
     page.add(t,t1)
 
