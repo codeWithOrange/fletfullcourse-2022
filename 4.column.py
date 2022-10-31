@@ -78,7 +78,6 @@ def main(page:Page):
 
     )
 
-
     page.add(c1)
 
 flet.app(target=main,view=flet.FLET_APP)
