@@ -7,7 +7,7 @@ def main(page:Page):
     page.vertical_alignment='center'
 
     p=ProgressRing(
-        color=colors.PINK_300, 
+        color=colors.PINK_300,  
         bgcolor=colors.GREEN_800,
         value=0.2, 
         tooltip='this is the progress ring', 
