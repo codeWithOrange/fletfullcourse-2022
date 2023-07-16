@@ -6,7 +6,7 @@ def main(page:Page):
     page.bgcolor=colors.WHITE
     
     def on_click(e):
-        listtile.selected= not listtile.selected
+        ListTile.selected= not ListTile.selected
         page.update()
 
     def on_long_press(e):

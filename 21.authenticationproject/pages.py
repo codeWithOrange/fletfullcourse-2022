@@ -162,11 +162,6 @@ class Authentication:
                 self.page.snack_bar.open=True
                 self.page.update()
 
-
-
-
-
-
         else:
             print('login form is not validated')
 
@@ -329,7 +324,6 @@ class MainPage:
 
 
     def view(self):
-
         token=self.page.client_storage.get('auth-token')
         currentUser=auth.refresh(token)
         idToken=currentUser['idToken']
